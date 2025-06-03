@@ -1,0 +1,22 @@
+{
+  "name": "coding-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build:scss": "sass src/styles/main.scss dist/site.min.css --style=compressed",
+    "build:ts": "node esbuild.config.js",
+    "build": "npm run build:scss && npm run build:ts",
+    "watch:scss": "sass --watch src/styles/main.scss:dist/site.min.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.25.5",
+    "esbuild-plugin-sass": "^1.0.1",
+    "sass": "^1.89.0",
+    "typescript": "^5.8.3"
+  }
+}

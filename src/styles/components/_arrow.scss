@@ -1,0 +1,34 @@
+.arrow {
+  position: absolute;
+  width: 12px;
+  height: 24px;
+  cursor: pointer;
+
+  &--left {
+    left: 0;
+  }
+
+  &--right {
+    right: 0;
+  }
+
+  &--hero {
+    top: 27.1rem;
+  }
+
+  &--slider {
+    top: 10rem;
+  }
+
+  //   &:hover {
+  //     transform: scale(1.1);
+  //   }
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+
+  @media (min-width: 1025px) and (max-width: 1440px) {
+    display: none;
+  }
+}

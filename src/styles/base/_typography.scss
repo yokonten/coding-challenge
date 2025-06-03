@@ -1,0 +1,27 @@
+@use "../abstracts/variables" as *;
+
+h1 {
+  font-size: $font-h1;
+  font-weight: $weight-medium;
+}
+
+h2 {
+  font-size: $font-h2;
+  font-weight: $weight-medium;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $font-secondary;
+  color: $color-black;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.2;
+}
+
+hr {
+  color: $color-grey;
+}

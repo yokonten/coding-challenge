@@ -1,0 +1,19 @@
+section {
+  margin: 5rem 0;
+
+  &.navbar {
+    margin-bottom: 0;
+  }
+  
+  &.hero-slider {
+    margin-top: 0
+  }
+
+  @media (max-width: 768px) {
+    margin: 2.5rem 0;
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    margin: 3rem 0;
+  }
+}

@@ -1,0 +1,29 @@
+@use "sass:map";
+
+// Font
+$font-primary: "Biryani", sans-serif;
+$font-secondary: "Noto Serif JP", serif;
+
+// Font sizes
+$font-h1: 48px;
+$font-h2: 34px;
+$font-xxl: 56px;
+$font-xl: 20px;
+$font-m: 14px;
+$font-xsm: 12px;
+$font-2xsm: 10px;
+
+// Font weights
+$weight-regular: 400;
+$weight-medium: 500;
+$weight-bold: 700;
+
+// Color
+
+$color-white: #ffffff;
+$color-black: #000000;
+$color-black-transparency: #00000066;
+$color-grey: #bdbab7;
+$color-light-grey: #909294;
+$color-light-brown: #c6a26d;
+$color-cream: #f4f0ec;

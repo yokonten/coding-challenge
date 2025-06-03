@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs and metadata
+*.log
+*.tsbuildinfo
+
+# macOS / Linux
+.DS_Store
+
+# Optional: IDE-specific
+.vscode/
+.idea/

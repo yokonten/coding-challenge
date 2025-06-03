@@ -1,0 +1,79 @@
+@use "../abstracts/variables" as *;
+
+.collections-nav {
+  text-align: center;
+  padding: 2rem 1rem;
+
+  &__title {
+    margin-bottom: 1rem;
+  }
+
+  &__slider {
+    position: relative;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 45rem;
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    &::before {
+      left: 0;
+      background: linear-gradient(to right, #fff, transparent);
+    }
+
+    &::after {
+      right: 0;
+      background: linear-gradient(to left, #fff, transparent);
+    }
+
+    @media (max-width: 768px) {
+      &::before,
+      &::after {
+        width: 6.25rem;
+      }
+    }
+
+    @media (min-width: 769px) and (max-width: 1440px) {
+      &::before,
+      &::after {
+        width: 25rem;
+      }
+    }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__item {
+    padding: 0 1.5rem;
+    flex: 0 0 auto;
+  }
+
+  &__link {
+    font-size: $font-xl;
+    font-weight: $weight-regular;
+    text-transform: uppercase;
+    color: $color-black;
+    text-decoration: none;
+    transition: color 0.3s;
+
+    &--active {
+      color: $color-light-brown;
+      font-weight: $weight-medium;
+    }
+  }
+}

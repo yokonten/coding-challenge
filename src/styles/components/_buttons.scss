@@ -1,0 +1,20 @@
+@use "../abstracts/variables" as *;
+
+button,
+.button {
+  padding: 0.5rem 1rem;
+  font-size: $font-2xsm;
+  font-weight: $weight-bold;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &--primary {
+    background-color: $color-light-brown;
+    color: $color-white;
+  }
+
+  &--secondary {
+    background-color: $color-white;
+    color: $color-black;
+  }
+}
