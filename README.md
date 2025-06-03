@@ -4,7 +4,7 @@ A responsive, animated slider built with **HTML**, **SCSS**, and **TypeScript**,
 
 ## Installation
 
-### Clone the repository:
+### Clone the repository
 
 ```bash
 
