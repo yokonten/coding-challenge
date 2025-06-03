@@ -8,7 +8,7 @@ A responsive, animated slider built with **HTML**, **SCSS**, and **TypeScript**,
 
 ```bash
 
-git clone https://github.com/yourusername/coding-challenge.git
+git clone https://github.com/yokonten/coding-challenge.git
 
 ```
 
